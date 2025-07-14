@@ -7,11 +7,11 @@
   gap: 100px;
 }
 
-.exp .sub-title{
+.exp .sub-title {
   color: #e0e0e0;
 }
 
-.exp-text{
+.exp-text {
   font-size: 1.5rem;
   line-height: 1.33;
   max-width: 40ch;
@@ -19,11 +19,11 @@
   color: #525252;
 }
 
-.exp-text strong{
+.exp-text strong {
   color: #141414;
 }
 
-.company{
+.company {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 20px;
@@ -34,8 +34,8 @@
   gap: 10px 20px;
 }
 
-.company::before{
-  content: '';
+.company::before {
+  content: "";
   display: block;
   width: 4px;
   height: 20px;
@@ -45,53 +45,53 @@
   left: -3px;
 }
 
-.company-year{
+.company-year {
   position: absolute;
   top: 22px;
   left: -50px;
   color: #525252;
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
-.company-title{
+.company-title {
   font-size: 1.125rem;
   line-height: 1.1;
   font-weight: bold;
 }
 
-.company-text{
-  font-size: .875rem;
+.company-text {
+  font-size: 0.875rem;
   line-height: 1.4;
   color: #525252;
 }
 
-.company-skils{
+.company-skils {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-content: start;
 }
 
-.company-skils li{
-  font-size: .875rem;
+.company-skils li {
+  font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 4px;
   background: #ffff;
   padding: 5px 10px;
 }
 
-@media (max-width: 800px){
-  .exp{
+@media (max-width: 800px) {
+  .exp {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .exp .sub-title{
+  .exp .sub-title {
     color: #141414;
   }
-  .exp-text{
+  .exp-text {
     font-size: 1.25rem;
   }
-  .company-year{
+  .company-year {
     position: initial;
     order: 1;
     width: initial;
@@ -99,8 +99,8 @@
   }
 }
 
-@media (max-width: 800px){
-  .company{
+@media (max-width: 800px) {
+  .company {
     grid-template-columns: 1fr;
   }
 }

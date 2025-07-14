@@ -1,5 +1,5 @@
 .training {
-  background-color: #202020;
+  background-color: #424242;
   color: white;
 }
 
@@ -18,8 +18,8 @@
   position: relative;
 }
 
-.container-training::after{
-  content: '';
+.container-training::after {
+  content: "";
   display: block;
   width: 130px;
   height: 100px;
@@ -57,14 +57,14 @@
   flex-direction: column;
 }
 
-.faculty-type{
-  font-size: .875rem;
+.faculty-type {
+  font-size: 0.875rem;
   text-transform: uppercase;
   color: #a3a3a3;
   margin-bottom: 10px;
 }
 
-.faculty-course{
+.faculty-course {
   flex: 1;
   font-size: 1.125rem;
   line-height: 1.4;
@@ -72,8 +72,8 @@
   position: relative;
 }
 
-.faculty-course::before{
-  content: '';
+.faculty-course::before {
+  content: "";
   display: block;
   width: 4px;
   height: 20px;
@@ -83,17 +83,17 @@
   left: -24px;
 }
 
-.faculty-institution{
+.faculty-institution {
   font-size: 1.125rem;
   color: #a3a3a3;
 }
 
-.courses{
+.courses {
   margin-bottom: 60px;
 }
 
-.training-more h3{
-  font-size: .875rem;
+.training-more h3 {
+  font-size: 0.875rem;
   line-height: 1.4;
   color: #8f8f8f;
   text-transform: uppercase;
@@ -101,9 +101,9 @@
   position: relative;
 }
 
-.courses h3::before{
+.courses h3::before {
   display: block;
-  content: '';
+  content: "";
   width: 24px;
   height: 24px;
   background: url("../img/cursos.svg") no-repeat center center;
@@ -112,9 +112,9 @@
   top: -4px;
 }
 
-.languages h3::before{
+.languages h3::before {
   display: block;
-  content: '';
+  content: "";
   width: 24px;
   height: 24px;
   background: url("../img/idiomas.svg") no-repeat center center;
@@ -123,44 +123,44 @@
   top: -4px;
 }
 
-.training-more li{
+.training-more li {
   font-size: 1.125rem;
   line-height: 1.1;
   margin-bottom: 20px;
 }
 
-.training-more span{
+.training-more span {
   color: #8f8f8f;
 }
 
-.courses li{
+.courses li {
   display: flex;
   justify-content: space-between;
 }
 
-.languages li{
+.languages li {
   display: flex;
   justify-content: start;
   gap: 10px;
 }
 
-@media (max-width: 800px){
-  .container-training{
+@media (max-width: 800px) {
+  .container-training {
     grid-template-columns: 1fr;
     padding: 60px 20px;
     gap: 40px;
   }
-  .training .sub-title{
+  .training .sub-title {
     color: #fff;
   }
-  .training-text{
+  .training-text {
     font-size: 1.25rem;
   }
-  .training-more h3::before{
+  .training-more h3::before {
     position: initial;
     margin-bottom: 10px;
   }
-  .container-training::after{
+  .container-training::after {
     width: 10px;
     height: 50px;
     bottom: -25px;
